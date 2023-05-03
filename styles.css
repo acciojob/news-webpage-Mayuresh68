@@ -1,6 +1,10 @@
 /*  your css code here. If applicable */
+.container{
+	background-color: red;
+}
 .main{
-	background-color: #f5f5f5;
+	margin-top: -10px;
+	padding: 0px;
 }
 
 .container .head h2{
@@ -16,8 +20,41 @@
 	justify-content: center;
 }
 
+	#box1{
+	background-color: white;
+		
+		top-margin: 0px;
+		padding:0px;
+/* 		border:solid black; */
+		width: 10px;
+		text-align: center;
+		width:200px;
+		border-radius: 10px;
+	}
 
+#box2{
+	background-color: white;
+		
+		top-margin: 0px;
+		padding:0px;
+/* 		border:solid black; */
+	text-align: center;
+		width:400px
+	
+	}
+#box3{
+	background-color: white;
+		padding:0px;
+/* 		border:solid black; */
+		text-align: center;
+		width:200px;
+	border-radius: 10px;
+	
+	}
 .main{
 	display: flex;
-	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5px;
+	align-items: flex-start;
 }
